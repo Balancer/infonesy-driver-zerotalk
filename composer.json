@@ -1,0 +1,21 @@
+{
+	"name": "balancer/infonesy-driver-zerotalk",
+	"description": "Infonesy ZeroTalk driver",
+	"authors": [
+		{
+			"name": "Roman =Balancer= Karshiev",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"require": {
+		"balancer/bors-core": "*",
+		"robmorgan/phinx": "*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Infonesy\\": "src/"
+		}
+	}
+}
